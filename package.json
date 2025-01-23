@@ -1,24 +1,20 @@
 {
-  "name": "educational-site", // Replace with your project name
+  "name": "educational-site",
   "version": "1.0.0",
   "private": true,
   "description": "An educational website built with React",
   "main": "src/index.js",
   "scripts": {
-    "start": "react-scripts start", // Start development server
-    "build": "react-scripts build", // Build for production
-    "test": "react-scripts test",   // Run tests
-    "eject": "react-scripts eject"  // Eject config (use cautiously)
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
-    "react": "^18.2.0", // React library
-    "react-dom": "^18.2.0", // React DOM library
-    "react-scripts": "5.0.1" // React Scripts (config and tooling)
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
-  "devDependencies": {
-    // Add dev-only dependencies here if needed
-  },
-  "homepage": ".", // Required for relative paths when deploying to Netlify
   "browserslist": {
     "production": [
       ">0.2%",
